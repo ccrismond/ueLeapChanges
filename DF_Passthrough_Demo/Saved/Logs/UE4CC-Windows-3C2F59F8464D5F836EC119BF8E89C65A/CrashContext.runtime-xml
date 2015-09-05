@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>5720</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>1</IsSourceDistribution>
+<GameName>DF_Passthrough_Demo</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.9.0-0+++depot+UE4-Releases+4.9</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<DefaultLocale>en_US</DefaultLocale>
+<IsUE4Release>0</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Users/ccrismond/Documents/UnrealEngine_Fork/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/ccrismond/Documents/UnrealEngine_Fork/</RootDir>
+<MachineId>69883A4B46675AD0A61616BFA50C4F11</MachineId>
+<EpicAccountId>76558e89d3c2499b9fabdf831ede590d</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage></ErrorMessage>
+<MiscNumberOfCores>4</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>8</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>NVIDIA GeForce GTX 980 Ti</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 8.1</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>17118855168</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>16</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>0</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>0</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>0</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>0</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>0</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>0</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
