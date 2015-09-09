@@ -154,12 +154,8 @@ void ULeapMotionImageComponent::UpdateImageTexture()
 		}
 
 		const bool bUsingHmd = GEngine->HMDDevice.IsValid() && GEngine->HMDDevice->IsHeadTrackingAllowed();
-		DynamicPassthroughMaterial->SetScalarParameterValue("", bUsingHmd ? 1.4f : 1.0f);
-		if (bUsingHmd)
-		{
-			APlayerCameraManager* CameraManager = UGameplayStatics::GetPlayerCameraManager(this, 0);
-			CameraManager->SetFOV(106.0929);
-		}
+		DynamicPassthroughMaterial->SetScalarParameterValue("HorizontalTanHalfFOV", bUsingHmd ? 1.4f : 1.0f);
+
 	}
 	else
 	{
@@ -189,7 +185,7 @@ void ULeapMotionImageComponent::UpdateDistortionTextures(const Leap::Image& Imag
 	FColor* Colors = reinterpret_cast<FColor*>(MipData);
 
 	const float* DistortionData = Image.distortion();
-	int DistortionDataSize = /* 2 * */ Image.distortionWidth() * Image.distortionHeight();
+	int DistortionDataSize = Image.distortionWidth() * Image.distortionHeight();
 
 	const int TexWidth = Image.distortionWidth() / 2;
 	const int TexHeight = Image.distortionHeight();
