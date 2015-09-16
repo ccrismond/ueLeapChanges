@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\SymbolDebugger.Target.cs" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\SymbolDebugger.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{C2C50F4C-328E-41ED-90AD-4E81EEB81533}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Private\SSymbolDebugger.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Private\SSymbolDebugger.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Private\SymbolDebugger.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Private\SymbolDebugger.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Private\SymbolDebuggerApp.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{B7772052-58B0-44BA-96B0-9026FB7BA8C0}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Private\Mac\SymbolDebuggerMainMac.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{F94C074C-2C23-478C-BDBD-BEF972691AA5}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Private\Windows\SymbolDebuggerMainWindows.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{DA0B8E54-BC2F-4D72-B68F-6142C4EE714C}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Public\SymbolDebuggerApp.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{9D2DDE9C-380C-4C06-8171-1070E2D5F31D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{940E7B30-F9DA-4B49-8F8C-5000769FB09B}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Resources\Windows\Debug-PCLaunch-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Resources\Windows\Debug-PCLaunch-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Resources\Windows\PCLaunch-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Resources\Windows\PCLaunch-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<ResourceCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\SymbolDebugger\Resources\Windows\PCLaunch.rc">
+			<Filter>Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\CrashReportClient.Target.cs" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\CrashReportClient.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{65216F83-7C15-48B2-941D-F11E55AF6218}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashDescription.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashDescription.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportAnalytics.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportAnalytics.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClient.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClient.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientApp.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientStyle.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientStyle.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientUnattended.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientUnattended.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportUtil.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashUpload.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashUpload.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\GenericErrorReport.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\GenericErrorReport.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\MainLoopTiming.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\MainLoopTiming.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PendingReports.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PendingReports.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PlatformErrorReport.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\SCrashReportClient.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\SCrashReportClient.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Private\Linux">
+			<UniqueIdentifier>{E7F96BD3-C5E1-4ACF-AD5D-124558F3E8CB}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp">
+			<Filter>Private\Linux</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Linux\LinuxErrorReport.h">
+			<Filter>Private\Linux</Filter>
+		</ClInclude >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{8502BC31-C8DD-40BF-B770-E49869E9336A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\MacErrorReport.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\MacErrorReport.h">
+			<Filter>Private\Mac</Filter>
+		</ClInclude >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{62106E9A-6E8E-4C90-876E-D3C8281600FD}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\WindowsErrorReport.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\WindowsErrorReport.h">
+			<Filter>Private\Windows</Filter>
+		</ClInclude >
+		<Filter Include="Public">
+			<UniqueIdentifier>{22BA960E-76E2-4D15-AC75-6809671A7F33}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Public\CrashReportClientApp.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{E55B32EB-F1B1-4C37-A47C-CA5BE0C55D34}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{ACDAB75D-A28B-45FE-967C-F862ECF144E6}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient.ico">
+			<Filter>Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient.rc">
+			<Filter>Resources\Windows</Filter>
+		</ResourceCompile >
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+	</ItemGroup>
+</Project>

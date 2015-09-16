@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\Mac\UnrealAtoS\UnrealAtoS.Target.cs" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\Mac\UnrealAtoS\UnrealAtoS.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{1336A2EF-E463-41D9-ADC5-252AC4F52322}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\Mac\UnrealAtoS\Private\UnrealAtoSApp.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{9C0A9EB2-04A5-41F1-B4E3-8840F3C772FA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\Mac\UnrealAtoS\Private\Mac\UnrealAtoSMainMac.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{46670492-0FCF-40D9-BEEC-D37389C99777}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\Mac\UnrealAtoS\Public\UnrealAtoSApp.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

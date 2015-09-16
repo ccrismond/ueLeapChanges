@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{DC684162-CFC8-445D-9B8B-4CCA91B8CF2F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchToolMain.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+	</ItemGroup>
+</Project>

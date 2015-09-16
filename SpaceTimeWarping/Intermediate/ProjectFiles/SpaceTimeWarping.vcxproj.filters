@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SpaceTimeWarping.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4158DF4E-CEF5-4209-BBB6-9170196541FB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpaceTimeWarping.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpaceTimeWarpingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{47B7FC0E-A9E0-4F7B-ADD0-C88F3B9F47E9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SpaceTimeWarping">
+      <UniqueIdentifier>{B3561D25-1E26-4A80-A1FE-34776305BBEC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpaceTimeWarping\SpaceTimeWarping.Build.cs">
+      <Filter>Source\SpaceTimeWarping</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SpaceTimeWarping\SpaceTimeWarping.cpp">
+      <Filter>Source\SpaceTimeWarping</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceTimeWarping\SpaceTimeWarping.h">
+      <Filter>Source\SpaceTimeWarping</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceTimeWarping\Private">
+      <UniqueIdentifier>{6719C69F-B649-4083-B484-7BB715D5A28C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SpaceTimeWarping\Public">
+      <UniqueIdentifier>{6ED0CD3F-9E22-4431-9A23-8F88BE64466F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SpaceTimeWarping\Public\CameraWarp.h">
+      <Filter>Source\SpaceTimeWarping\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SpaceTimeWarping\Private\CameraWarp.cpp">
+      <Filter>Source\SpaceTimeWarping\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

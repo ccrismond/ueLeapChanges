@@ -1,0 +1,12 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{21DF0E0E-48D6-6C47-65AB-889CB80EA3F7}",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "LeapMotionController",
+			"Enabled": true
+		}
+	]
+}

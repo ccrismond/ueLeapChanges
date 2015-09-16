@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\UnrealSync.Target.cs" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\UnrealSync.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{066F57BB-B7B9-4720-B3B9-781C0ADEBD4F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\GUI.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\GUI.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\LabelNameProvider.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\P4DataCache.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\P4DataCache.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\P4Env.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\P4Env.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\ProcessHelper.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\ProcessHelper.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\SettingsCache.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\SettingsCache.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\SyncingThread.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\SyncingThread.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\UnrealSync.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\UnrealSync.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{086F0C86-223E-4A8F-A45A-DD684C0FB964}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\Mac\UnrealSyncMainMac.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{707EB42B-6C56-401C-AC3E-A6F64609054F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Private\Windows\UnrealSyncMainWindows.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{BF4E6D8D-42D5-4E76-923A-918194774CDA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{2F4D1E85-73D5-482E-9334-F1C5B0DAC460}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Resources\Windows\UnrealSync.ico">
+			<Filter>Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealSync\Resources\Windows\UnrealSync.rc">
+			<Filter>Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

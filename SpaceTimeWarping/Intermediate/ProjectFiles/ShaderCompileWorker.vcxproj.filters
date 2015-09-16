@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{FB868BF1-2CF8-4113-916B-CF8738D371AF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\lm_Work\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{7374204F-0902-4229-AB9C-D1A0F19673C1}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{CCB1BCE5-FC97-4078-B2AB-A218A1C73E19}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\ShaderCompileWorker\Resources\resource.h">
+			<Filter>Resources</Filter>
+		</ClInclude >
+		<ResourceCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\ShaderCompileWorker\Resources\Resource.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\ShaderCompileWorker\Resources\Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\ShaderCompileWorker\Resources\Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+	</ItemGroup>
+</Project>

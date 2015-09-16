@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Program|Win32">
+			<Configuration>WinRT_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Program|x64">
+			<Configuration>WinRT_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|Win32">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|x64">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Program|Win32">
+			<Configuration>WinRT_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Program|x64">
+			<Configuration>WinRT_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|Win32">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|x64">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|x64">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{B7B5D21E-3D49-4730-B859-E5DF7D862C1D}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>UnrealLightmass</RootNamespace>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass Win32 Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Win32 Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Win32 Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win32\UnrealLightmass-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass Win64 Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Win64 Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Win64 Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win64\UnrealLightmass-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass WinRT Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass WinRT Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass WinRT Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\WinRT\UnrealLightmass-WinRT-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass Mac Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Mac Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Mac Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Mac\UnrealLightmass-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass IOS Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass IOS Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass IOS Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\IOS\UnrealLightmass-IOS-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass HTML5 Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass HTML5 Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass HTML5 Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\HTML5\UnrealLightmass-HTML5-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass Win32 Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Win32 Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Win32 Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win32\UnrealLightmass.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass Win64 Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Win64 Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Win64 Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win64\UnrealLightmass.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass WinRT Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass WinRT Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass WinRT Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\WinRT\UnrealLightmass.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass Mac Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Mac Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Mac Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Mac\UnrealLightmass</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass IOS Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass IOS Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass IOS Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\IOS\UnrealLightmass</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat UnrealLightmass HTML5 Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass HTML5 Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat UnrealLightmass HTML5 Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\HTML5\UnrealLightmass.exe</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs" />
+		<None Include="..\..\..\..\lm_Work\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Launch\stdafx.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Launch\stdafx.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BuildOptions.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Cache.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Cache.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FinalGather.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Lighting.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PhotonMapping.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PrecomputedVisibility.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Raster.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\SampleVolume.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Texture.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMapping.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting\VolumeDistanceField.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMkDOP.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMathSSE.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMOctree.h" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\Mersenne Prime Twister (SSE version).tps" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\SFMT.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMHelpers.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMStats.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Public\ImportExport.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Public\LightmassPublic.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Public\MaterialExport.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Public\MeshExport.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Public\SceneExport.h" />
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win32.manifest" />
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win64.manifest" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Resources\resource.h" />
+		<ResourceCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Resources\Resource.rc" />
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Resources\Win32.manifest" />
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\UnrealLightmass\Resources\Win64.manifest" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);ALLOW_LOG_FILE=0;IS_PROGRAM=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=1;WITH_PLUGIN_SUPPORT=1;USE_LOGGING_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UnrealLightmass.exe";UNREALLIGHTMASS_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;SWARMINTERFACE_API=;PROJECTS_API=;JSON_API=;MESSAGING_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);E:\github_repo\lm_Work\Engine\Source;E:\github_repo\lm_Work\Engine\Source\Runtime\Launch\Private;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Launch;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\ImportExport;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\Lighting;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Types;E:\github_repo\lm_Work\Engine\Source\Runtime\Launch\Public;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Public;..\Build\Win64\UnrealLightmass\Inc\UnrealLightmass;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Internationalization;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Async;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Concurrency;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Containers;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Delegates;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\GenericPlatform;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\HAL;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Logging;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Math;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Misc;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Modules;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\ProfilingDebugging;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Serialization;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Serialization\Csv;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Stats;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Templates;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\UObject;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Windows;E:\github_repo\lm_Work\Engine\Source\Runtime\Core;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Blueprint;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Misc;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Serialization;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Templates;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\UObject;..\Build\Win64\UnrealLightmass\Inc\CoreUObject;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject;E:\github_repo\lm_Work\Engine\Source\ThirdParty\zlib\zlib-1.2.5\Inc;E:\github_repo\lm_Work\Engine\Source\ThirdParty\zlib;E:\github_repo\lm_Work\Engine\Source\Editor\SwarmInterface\Public;..\Build\Win64\UnrealLightmass\Inc\SwarmInterface;E:\github_repo\lm_Work\Engine\Source\Editor\SwarmInterface;E:\github_repo\lm_Work\Engine\Source\Runtime\Projects\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Projects\Public\Interfaces;..\Build\Win64\UnrealLightmass\Inc\Projects;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public\Dom;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public\Policies;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public\Serialization;..\Build\Win64\UnrealLightmass\Inc\Json;E:\github_repo\lm_Work\Engine\Source\Runtime\Json;E:\github_repo\lm_Work\Engine\Source\Runtime\Projects;E:\github_repo\lm_Work\Engine\Source\ThirdParty\Windows\DX9;E:\github_repo\lm_Work\Engine\Source\Runtime\Messaging\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Messaging\Public\Deprecated;E:\github_repo\lm_Work\Engine\Source\Runtime\Messaging\Public\Helpers;..\Build\Win64\UnrealLightmass\Inc\Messaging;E:\github_repo\lm_Work\Engine\Source\Runtime\Messaging;E:\github_repo\lm_Work\Engine\Source\ThirdParty\Windows\DirectX\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Program|Win32">
+			<Configuration>WinRT_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Program|x64">
+			<Configuration>WinRT_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|Win32">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|x64">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Program|Win32">
+			<Configuration>WinRT_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Program|x64">
+			<Configuration>WinRT_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|Win32">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|x64">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|x64">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Program|Win32">
+			<Configuration>Shipping_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Program|x64">
+			<Configuration>Shipping_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Shipping_Program|Win32">
+			<Configuration>WinRT_Shipping_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Shipping_Program|x64">
+			<Configuration>WinRT_Shipping_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Program|Win32">
+			<Configuration>Mac_Shipping_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Program|x64">
+			<Configuration>Mac_Shipping_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Program|Win32">
+			<Configuration>IOS_Shipping_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Program|x64">
+			<Configuration>IOS_Shipping_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Program|Win32">
+			<Configuration>HTML5_Shipping_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Program|x64">
+			<Configuration>HTML5_Shipping_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{D7F20BE5-89C2-44B7-B03A-792AE2E8F55F}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>CrashReportClient</RootNamespace>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win32\CrashReportClient-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win64\CrashReportClient-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient WinRT Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient WinRT Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient WinRT Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\WinRT\CrashReportClient-WinRT-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Mac\CrashReportClient-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient IOS Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient IOS Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient IOS Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\IOS\CrashReportClient-IOS-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient HTML5 Debug</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient HTML5 Debug</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient HTML5 Debug</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\HTML5\CrashReportClient-HTML5-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win32\CrashReportClient.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win64\CrashReportClient.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient WinRT Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient WinRT Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient WinRT Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\WinRT\CrashReportClient.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Mac\CrashReportClient</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient IOS Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient IOS Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient IOS Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\IOS\CrashReportClient</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient HTML5 Development</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient HTML5 Development</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient HTML5 Development</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\HTML5\CrashReportClient.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Shipping</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Shipping</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Shipping</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win32\CrashReportClient-Win32-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Shipping</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Shipping</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Shipping</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win64\CrashReportClient-Win64-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient WinRT Shipping</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient WinRT Shipping</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient WinRT Shipping</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\WinRT\CrashReportClient-WinRT-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Shipping</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Shipping</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Shipping</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Mac\CrashReportClient-Mac-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient IOS Shipping</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient IOS Shipping</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient IOS Shipping</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\IOS\CrashReportClient-IOS-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat CrashReportClient HTML5 Shipping</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient HTML5 Shipping</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat CrashReportClient HTML5 Shipping</NMakeCleanCommandLine>
+		<NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\HTML5\CrashReportClient-HTML5-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\CrashReportClient.Target.cs" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\CrashReportClient.Build.cs" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashDescription.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashDescription.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportAnalytics.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportAnalytics.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClient.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClient.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientApp.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientStyle.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientStyle.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientUnattended.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientUnattended.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportUtil.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashUpload.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashUpload.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\GenericErrorReport.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\GenericErrorReport.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\MainLoopTiming.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\MainLoopTiming.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PendingReports.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PendingReports.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PlatformErrorReport.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\SCrashReportClient.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\SCrashReportClient.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Linux\LinuxErrorReport.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\MacErrorReport.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\MacErrorReport.h" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp" />
+		<ClCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\WindowsErrorReport.cpp" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\WindowsErrorReport.h" />
+		<ClInclude Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Public\CrashReportClientApp.h" />
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient-Win32.manifest" />
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient-Win64.manifest" />
+		<None Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient.ico" />
+		<ResourceCompile Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient.rc" />
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win32.manifest" />
+		<Manifest Include="..\..\..\..\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win64.manifest" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);USE_CHECKS_IN_SHIPPING=1;IS_PROGRAM=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;USE_LOGGING_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_PROJECT_NAME=SpaceTimeWarping;ORIGINAL_FILE_NAME="CrashReportClient-Win64-Development.exe";CRASHREPORTCLIENT_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;CRASHDEBUGHELPER_API=;SOURCECONTROL_API=;INPUTCORE_API=;HTTP_PACKAGE=1;HTTP_API=;JSON_API=;PROJECTS_API=;XMLPARSER_API=;ANALYTICS_API=;ANALYTICSET_API=;WITH_FREETYPE=1;SLATE_API=;SLATECORE_API=;SLATEREFLECTOR_API=;STANDALONERENDERER_API=;MESSAGELOG_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);E:\github_repo\lm_Work\Engine\Source;E:\github_repo\lm_Work\Engine\Source\Runtime\Launch\Private;E:\github_repo\lm_Work\Engine\Source\Runtime\Launch\Public;E:\github_repo\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Private;E:\github_repo\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient\Public;..\Build\Win64\CrashReportClient\Inc\CrashReportClient;E:\github_repo\lm_Work\Engine\Source\Programs\CrashReporter\CrashReportClient;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Internationalization;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Async;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Concurrency;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Containers;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Delegates;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\GenericPlatform;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\HAL;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Logging;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Math;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Misc;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Modules;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\ProfilingDebugging;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Serialization;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Serialization\Csv;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Stats;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Templates;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\UObject;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Windows;E:\github_repo\lm_Work\Engine\Source\Runtime\Core;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Blueprint;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Misc;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Serialization;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Templates;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\UObject;..\Build\Win64\CrashReportClient\Inc\CoreUObject;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject;E:\github_repo\lm_Work\Engine\Source\Developer\CrashDebugHelper\Public;..\Build\Win64\CrashReportClient\Inc\CrashDebugHelper;E:\github_repo\lm_Work\Engine\Source\Developer\SourceControl\Public;E:\github_repo\lm_Work\Engine\Source\Developer\SourceControl\Public\Tests;..\Build\Win64\CrashReportClient\Inc\SourceControl;E:\github_repo\lm_Work\Engine\Source\Runtime\InputCore\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\InputCore\Public;..\Build\Win64\CrashReportClient\Inc\InputCore;E:\github_repo\lm_Work\Engine\Source\Runtime\InputCore;E:\github_repo\lm_Work\Engine\Source\Developer\SourceControl;E:\github_repo\lm_Work\Engine\Source\Developer\CrashDebugHelper;E:\github_repo\lm_Work\Engine\Source\Runtime\Online\HTTP\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;..\Build\Win64\CrashReportClient\Inc\HTTP;E:\github_repo\lm_Work\Engine\Source\Runtime\Online\HTTP;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public\Dom;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public\Policies;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public\Serialization;..\Build\Win64\CrashReportClient\Inc\Json;E:\github_repo\lm_Work\Engine\Source\Runtime\Json;E:\github_repo\lm_Work\Engine\Source\Runtime\Projects\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Projects\Public\Interfaces;..\Build\Win64\CrashReportClient\Inc\Projects;E:\github_repo\lm_Work\Engine\Source\Runtime\Projects;E:\github_repo\lm_Work\Engine\Source\Editor\XmlParser\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\XmlParser\Public;..\Build\Win64\CrashReportClient\Inc\XmlParser;E:\github_repo\lm_Work\Engine\Source\Runtime\XmlParser;E:\github_repo\lm_Work\Engine\Source\Runtime\Analytics\Analytics\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Analytics\Analytics\Public\Interfaces;..\Build\Win64\CrashReportClient\Inc\Analytics;E:\github_repo\lm_Work\Engine\Source\Runtime\Analytics\Analytics;E:\github_repo\lm_Work\Engine\Source\Runtime\Analytics\AnalyticsET\Public;..\Build\Win64\CrashReportClient\Inc\AnalyticsET;E:\github_repo\lm_Work\Engine\Source\Runtime\Analytics\AnalyticsET;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Application;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Commands;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Docking;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Layout;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Notifications;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Styling;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Text;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Views;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Text\Android;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Colors;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Docking;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Images;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Input;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Layout;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Text;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Views;..\Build\Win64\CrashReportClient\Inc\Slate;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Animation;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Application;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Brushes;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Fonts;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Input;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Layout;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Logging;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Rendering;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Sound;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Stats;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Styling;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Textures;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Types;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Widgets;..\Build\Win64\CrashReportClient\Inc\SlateCore;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate;E:\github_repo\lm_Work\Engine\Source\Developer\SlateReflector\Public;..\Build\Win64\CrashReportClient\Inc\SlateReflector;E:\github_repo\lm_Work\Engine\Source\Developer\SlateReflector;E:\github_repo\lm_Work\Engine\Source\Developer\StandaloneRenderer\Public;E:\github_repo\lm_Work\Engine\Source\Developer\StandaloneRenderer\Public\IOS;..\Build\Win64\CrashReportClient\Inc\StandaloneRenderer;E:\github_repo\lm_Work\Engine\Source\Developer\StandaloneRenderer;E:\github_repo\lm_Work\Engine\Source\Developer\MessageLog\Public;..\Build\Win64\CrashReportClient\Inc\MessageLog;E:\github_repo\lm_Work\Engine\Source\Developer\MessageLog;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

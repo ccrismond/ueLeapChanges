@@ -1,0 +1,1495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Game|Win32">
+      <Configuration>Debug_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Game|x64">
+      <Configuration>Debug_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|Win32">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|x64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Game|Win32">
+      <Configuration>WinRT_Debug_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Game|x64">
+      <Configuration>WinRT_Debug_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Editor|Win32">
+      <Configuration>WinRT_Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Editor|x64">
+      <Configuration>WinRT_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Game|Win32">
+      <Configuration>Mac_Debug_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Game|x64">
+      <Configuration>Mac_Debug_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|Win32">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|x64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug_Game|Win32">
+      <Configuration>IOS_Debug_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug_Game|x64">
+      <Configuration>IOS_Debug_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug_Editor|Win32">
+      <Configuration>IOS_Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug_Editor|x64">
+      <Configuration>IOS_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Debug_Game|Win32">
+      <Configuration>HTML5_Debug_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Debug_Game|x64">
+      <Configuration>HTML5_Debug_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Debug_Editor|Win32">
+      <Configuration>HTML5_Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Debug_Editor|x64">
+      <Configuration>HTML5_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Game|Win32">
+      <Configuration>DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Game|x64">
+      <Configuration>DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|Win32">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Game|Win32">
+      <Configuration>WinRT_DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Game|x64">
+      <Configuration>WinRT_DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Editor|Win32">
+      <Configuration>WinRT_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Editor|x64">
+      <Configuration>WinRT_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Game|Win32">
+      <Configuration>Mac_DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Game|x64">
+      <Configuration>Mac_DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|Win32">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|x64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame_Game|Win32">
+      <Configuration>IOS_DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame_Game|x64">
+      <Configuration>IOS_DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame_Editor|Win32">
+      <Configuration>IOS_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame_Editor|x64">
+      <Configuration>IOS_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_DebugGame_Game|Win32">
+      <Configuration>HTML5_DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_DebugGame_Game|x64">
+      <Configuration>HTML5_DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_DebugGame_Editor|Win32">
+      <Configuration>HTML5_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_DebugGame_Editor|x64">
+      <Configuration>HTML5_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Game|Win32">
+      <Configuration>Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Game|x64">
+      <Configuration>Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|Win32">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Game|Win32">
+      <Configuration>WinRT_Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Game|x64">
+      <Configuration>WinRT_Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Editor|Win32">
+      <Configuration>WinRT_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Editor|x64">
+      <Configuration>WinRT_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Game|Win32">
+      <Configuration>Mac_Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Game|x64">
+      <Configuration>Mac_Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|Win32">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|x64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development_Game|Win32">
+      <Configuration>IOS_Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development_Game|x64">
+      <Configuration>IOS_Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development_Editor|Win32">
+      <Configuration>IOS_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development_Editor|x64">
+      <Configuration>IOS_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Development_Game|Win32">
+      <Configuration>HTML5_Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Development_Game|x64">
+      <Configuration>HTML5_Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Development_Editor|Win32">
+      <Configuration>HTML5_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Development_Editor|x64">
+      <Configuration>HTML5_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Game|Win32">
+      <Configuration>Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Game|x64">
+      <Configuration>Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Shipping_Game|Win32">
+      <Configuration>WinRT_Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Shipping_Game|x64">
+      <Configuration>WinRT_Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Game|Win32">
+      <Configuration>Mac_Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Game|x64">
+      <Configuration>Mac_Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping_Game|Win32">
+      <Configuration>IOS_Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping_Game|x64">
+      <Configuration>IOS_Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Shipping_Game|Win32">
+      <Configuration>HTML5_Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Shipping_Game|x64">
+      <Configuration>HTML5_Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Game|Win32">
+      <Configuration>Test_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Game|x64">
+      <Configuration>Test_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Test_Game|Win32">
+      <Configuration>WinRT_Test_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Test_Game|x64">
+      <Configuration>WinRT_Test_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Game|Win32">
+      <Configuration>Mac_Test_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Game|x64">
+      <Configuration>Mac_Test_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test_Game|Win32">
+      <Configuration>IOS_Test_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test_Game|x64">
+      <Configuration>IOS_Test_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Test_Game|Win32">
+      <Configuration>HTML5_Test_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Test_Game|x64">
+      <Configuration>HTML5_Test_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{02B09EBC-9CF8-4343-85AD-EB86110C9C66}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>SpaceTimeWarping</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceTimeWarping-Win32-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win32\UE4Editor-Win32-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceTimeWarping-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceTimeWarping-WinRT-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\WinRT\SpaceTimeWarpingEditor-WinRT-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceTimeWarping-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping IOS Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping IOS Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping IOS Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\SpaceTimeWarping-IOS-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor IOS Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor IOS Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor IOS Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\IOS\SpaceTimeWarpingEditor-IOS-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping HTML5 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping HTML5 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping HTML5 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HTML5\SpaceTimeWarping-HTML5-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\HTML5\SpaceTimeWarpingEditor-HTML5-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceTimeWarping-Win32-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceTimeWarping-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceTimeWarping-WinRT-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\WinRT\SpaceTimeWarpingEditor-WinRT-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceTimeWarping-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping IOS DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping IOS DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping IOS DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\SpaceTimeWarping-IOS-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor IOS DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor IOS DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor IOS DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\IOS\SpaceTimeWarpingEditor-IOS-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HTML5\SpaceTimeWarping-HTML5-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\HTML5\SpaceTimeWarpingEditor-HTML5-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceTimeWarping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceTimeWarping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceTimeWarping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\WinRT\SpaceTimeWarpingEditor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceTimeWarping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping IOS Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping IOS Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping IOS Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\SpaceTimeWarping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor IOS Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor IOS Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor IOS Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\IOS\SpaceTimeWarpingEditor</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping HTML5 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping HTML5 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping HTML5 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HTML5\SpaceTimeWarping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarpingEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarpingEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarpingEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>E:\github_repo\lm_Work\Engine\Binaries\HTML5\SpaceTimeWarpingEditor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win32 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win32 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win32 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceTimeWarping-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win64 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win64 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win64 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceTimeWarping-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping WinRT Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping WinRT Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping WinRT Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceTimeWarping-WinRT-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Mac Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Mac Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Mac Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceTimeWarping-Mac-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping IOS Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping IOS Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping IOS Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\SpaceTimeWarping-IOS-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HTML5\SpaceTimeWarping-HTML5-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win32 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win32 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win32 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceTimeWarping-Win32-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Win64 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Win64 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Win64 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceTimeWarping-Win64-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping WinRT Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping WinRT Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping WinRT Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceTimeWarping-WinRT-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping Mac Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping Mac Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping Mac Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceTimeWarping-Mac-Test</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping IOS Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping IOS Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping IOS Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\SpaceTimeWarping-IOS-Test</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Build.bat SpaceTimeWarping HTML5 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Rebuild.bat SpaceTimeWarping HTML5 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\github_repo\lm_Work\Engine\Build\BatchFiles\Clean.bat SpaceTimeWarping HTML5 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HTML5\SpaceTimeWarping-HTML5-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\SpaceTimeWarping.uproject" />
+    <None Include="..\..\Source\SpaceTimeWarping.Target.cs" />
+    <None Include="..\..\Source\SpaceTimeWarpingEditor.Target.cs" />
+    <None Include="..\..\Config\DefaultEditor.ini" />
+    <None Include="..\..\Config\DefaultEngine.ini" />
+    <None Include="..\..\Config\DefaultGame.ini" />
+    <None Include="..\..\Source\SpaceTimeWarping\SpaceTimeWarping.Build.cs" />
+    <ClCompile Include="..\..\Source\SpaceTimeWarping\Private\CameraWarp.cpp" />
+    <ClCompile Include="..\..\Source\SpaceTimeWarping\SpaceTimeWarping.cpp" />
+    <ClInclude Include="..\..\Source\SpaceTimeWarping\Public\CameraWarp.h" />
+    <ClInclude Include="..\..\Source\SpaceTimeWarping\SpaceTimeWarping.h" />
+  </ItemGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);UE_EDITOR=1;IS_PROGRAM=0;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=1;WITH_PLUGIN_SUPPORT=1;USE_LOGGING_IN_SHIPPING=1;UE_BUILD_MINIMAL=0;WITH_EDITOR=1;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UE4Editor-SpaceTimeWarping.dll";DEPRECATED_FORGAME=DEPRECATED;SPACETIMEWARPING_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_RUNTIME_PHYSICS_COOKING;WITH_BOX2D=1;WITH_RECAST=1;ENGINE_API=;JSON_API=;WITH_FREETYPE=1;SLATECORE_API=;INPUTCORE_API=;SLATE_API=;MESSAGING_API=;RENDERCORE_API=;RHI_API=;SHADERCORE_API=;ASSETREGISTRY_API=;COOKINGSTATS_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;AIMODULE_API=;GAMEPLAYTAGS_API=;GAMEPLAYTASKS_API=;DATABASESUPPORT_API=;UNREALED_API=;BSPMODE_API=;DIRECTORYWATCHER_API=;DOCUMENTATION_API=;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;BLUEPRINTGRAPH_API=;HTTP_PACKAGE=1;HTTP_API=;UNREALAUDIO_API=;NIAGARA_API=;MOVIESCENE_API=;VECTORVM_API=;XAUDIO2_API=;UNREALAUDIOXAUDIO2_API=;USERFEEDBACK_API=;COLLECTIONMANAGER_API=;NIAGARAEDITOR_API=;GRAPHEDITOR_API=;INTROTUTORIALS_API=;LEVELEDITOR_API=;SETTINGS_API=;ADDCONTENTDIALOG_API=;KISMET_API=;PACKETHANDLER_API=</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);E:\github_repo\lm_Work\Engine\Source;..\..\Source;..\..\Source\SpaceTimeWarping\Public;..\Build\Win64\UE4Editor\Inc\SpaceTimeWarping;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Internationalization;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Async;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Concurrency;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Containers;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Delegates;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\GenericPlatform;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\HAL;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Logging;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Math;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Misc;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Modules;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\ProfilingDebugging;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Serialization;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Serialization\Csv;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Stats;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Templates;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\UObject;E:\github_repo\lm_Work\Engine\Source\Runtime\Core\Public\Windows;E:\github_repo\lm_Work\Engine\Source\Runtime\Core;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Blueprint;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Misc;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Serialization;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\Templates;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject\Public\UObject;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;E:\github_repo\lm_Work\Engine\Source\Runtime\CoreUObject;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public\AI;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public\Animation;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public\EdGraph;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public\Features;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public\Net;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public\Slate;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public\Tests;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public\VisualLogger;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine\Public\AI\Navigation;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public\Dom;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public\Policies;E:\github_repo\lm_Work\Engine\Source\Runtime\Json\Public\Serialization;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;E:\github_repo\lm_Work\Engine\Source\Runtime\Json;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Animation;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Application;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Brushes;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Fonts;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Input;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Layout;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Logging;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Rendering;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Sound;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Stats;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Styling;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Textures;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Types;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore\Public\Widgets;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;E:\github_repo\lm_Work\Engine\Source\Runtime\InputCore\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\InputCore\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;E:\github_repo\lm_Work\Engine\Source\Runtime\InputCore;E:\github_repo\lm_Work\Engine\Source\Runtime\SlateCore;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Application;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Commands;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Docking;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Layout;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Notifications;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Styling;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Text;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Views;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Text\Android;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Colors;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Docking;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Images;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Input;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Layout;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Text;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate\Public\Widgets\Views;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;E:\github_repo\lm_Work\Engine\Source\Runtime\Slate;E:\github_repo\lm_Work\Engine\Source\Runtime\Messaging\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Messaging\Public\Deprecated;E:\github_repo\lm_Work\Engine\Source\Runtime\Messaging\Public\Helpers;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;E:\github_repo\lm_Work\Engine\Source\Runtime\Messaging;E:\github_repo\lm_Work\Engine\Source\Runtime\RenderCore\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;E:\github_repo\lm_Work\Engine\Source\Runtime\RenderCore;E:\github_repo\lm_Work\Engine\Source\Runtime\RHI\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;E:\github_repo\lm_Work\Engine\Source\Runtime\RHI;E:\github_repo\lm_Work\Engine\Source\Runtime\ShaderCore\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ShaderCore;E:\github_repo\lm_Work\Engine\Source\Runtime\ShaderCore;E:\github_repo\lm_Work\Engine\Source\Runtime\AssetRegistry\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;E:\github_repo\lm_Work\Engine\Source\Runtime\AssetRegistry;E:\github_repo\lm_Work\Engine\Source\Editor\CookingStats\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CookingStats;E:\github_repo\lm_Work\Engine\Source\Editor\CookingStats;E:\github_repo\lm_Work\Engine\Source\Runtime\EngineMessages\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\EngineMessages\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;E:\github_repo\lm_Work\Engine\Source\Runtime\EngineMessages;E:\github_repo\lm_Work\Engine\Source\Runtime\EngineSettings\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\EngineSettings\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;E:\github_repo\lm_Work\Engine\Source\Runtime\EngineSettings;E:\github_repo\lm_Work\Engine\Source\Developer\SynthBenchmark\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;E:\github_repo\lm_Work\Engine\Source\Runtime\Renderer\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;E:\github_repo\lm_Work\Engine\Source\Runtime\Renderer;E:\github_repo\lm_Work\Engine\Source\Developer\SynthBenchmark;E:\github_repo\lm_Work\Engine\Source\Runtime\AIModule\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\AIModule\Classes;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;E:\github_repo\lm_Work\Engine\Source\Runtime\GameplayTags\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\GameplayTags\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;E:\github_repo\lm_Work\Engine\Source\Runtime\GameplayTags;E:\github_repo\lm_Work\Engine\Source\Runtime\GameplayTasks\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\GameplayTasks\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;E:\github_repo\lm_Work\Engine\Source\Runtime\GameplayTasks;E:\github_repo\lm_Work\Engine\Source\Runtime\AIModule;E:\github_repo\lm_Work\Engine\Source\Runtime\DatabaseSupport\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DatabaseSupport;E:\github_repo\lm_Work\Engine\Source\Runtime\DatabaseSupport;E:\github_repo\lm_Work\Engine\Source\Programs\UnrealLightmass\Public;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Classes;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\AutoReimport;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\Commandlets;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\Dialogs;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\Features;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\Kismet2;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\Layers;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\Localization;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\Settings;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\Tests;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd\Public\Toolkits;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;E:\github_repo\lm_Work\Engine\Source\Editor\BspMode\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;E:\github_repo\lm_Work\Engine\Source\Editor\BspMode;E:\github_repo\lm_Work\Engine\Source\Developer\DirectoryWatcher\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;E:\github_repo\lm_Work\Engine\Source\Developer\DirectoryWatcher;E:\github_repo\lm_Work\Engine\Source\Editor\Documentation\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;E:\github_repo\lm_Work\Engine\Source\Editor\Documentation;E:\github_repo\lm_Work\Engine\Source\Runtime\Projects\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Projects\Public\Interfaces;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;E:\github_repo\lm_Work\Engine\Source\Runtime\Projects;E:\github_repo\lm_Work\Engine\Source\Runtime\SandboxFile\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;E:\github_repo\lm_Work\Engine\Source\Runtime\SandboxFile;E:\github_repo\lm_Work\Engine\Source\Editor\EditorStyle\Public;E:\github_repo\lm_Work\Engine\Source\Editor\EditorStyle\Public\Classes;E:\github_repo\lm_Work\Engine\Source\Editor\EditorStyle\Public\Interfaces;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;E:\github_repo\lm_Work\Engine\Source\Editor\EditorStyle;E:\github_repo\lm_Work\Engine\Source\Developer\SourceControl\Public;E:\github_repo\lm_Work\Engine\Source\Developer\SourceControl\Public\Tests;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;E:\github_repo\lm_Work\Engine\Source\Developer\SourceControl;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEdMessages\Classes;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEdMessages\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEdMessages;E:\github_repo\lm_Work\Engine\Source\Editor\BlueprintGraph\Classes;E:\github_repo\lm_Work\Engine\Source\Editor\BlueprintGraph\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;E:\github_repo\lm_Work\Engine\Source\Editor\BlueprintGraph;E:\github_repo\lm_Work\Engine\Source\Runtime\Online\HTTP\Public;E:\github_repo\lm_Work\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;E:\github_repo\lm_Work\Engine\Source\Runtime\Online\HTTP;E:\github_repo\lm_Work\Engine\Source\Runtime\UnrealAudio\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;E:\github_repo\lm_Work\Engine\Source\Runtime\UnrealAudio;E:\github_repo\lm_Work\Engine\Source\Runtime\Niagara\Classes;E:\github_repo\lm_Work\Engine\Source\Runtime\Niagara\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Niagara;E:\github_repo\lm_Work\Engine\Source\Runtime\MovieScene\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;E:\github_repo\lm_Work\Engine\Source\Runtime\MovieScene;E:\github_repo\lm_Work\Engine\Source\Runtime\Niagara;E:\github_repo\lm_Work\Engine\Source\Runtime\VectorVM\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VectorVM;E:\github_repo\lm_Work\Engine\Source\Runtime\VectorVM;E:\github_repo\lm_Work\Engine\Source\Runtime\Windows\XAudio2\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;E:\github_repo\lm_Work\Engine\Source\Runtime\Windows\XAudio2;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudioXAudio2;E:\github_repo\lm_Work\Engine\Source\Runtime\Windows\UnrealAudioXAudio2;E:\github_repo\lm_Work\Engine\Source\Editor\UserFeedback\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UserFeedback;E:\github_repo\lm_Work\Engine\Source\Editor\UserFeedback;E:\github_repo\lm_Work\Engine\Source\Developer\CollectionManager\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;E:\github_repo\lm_Work\Engine\Source\Developer\CollectionManager;E:\github_repo\lm_Work\Engine\Source\Editor\NiagaraEditor\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NiagaraEditor;E:\github_repo\lm_Work\Engine\Source\Editor\GraphEditor\Public;E:\github_repo\lm_Work\Engine\Source\Editor\GraphEditor\Public\KismetNodes;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;E:\github_repo\lm_Work\Engine\Source\Editor\IntroTutorials\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;E:\github_repo\lm_Work\Engine\Source\Editor\IntroTutorials;E:\github_repo\lm_Work\Engine\Source\Editor\GraphEditor;E:\github_repo\lm_Work\Engine\Source\Editor\LevelEditor\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;E:\github_repo\lm_Work\Engine\Source\Developer\Settings\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;E:\github_repo\lm_Work\Engine\Source\Developer\Settings;E:\github_repo\lm_Work\Engine\Source\Editor\LevelEditor;E:\github_repo\lm_Work\Engine\Source\Editor\NiagaraEditor;E:\github_repo\lm_Work\Engine\Source\Editor\AddContentDialog\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;E:\github_repo\lm_Work\Engine\Source\Editor\AddContentDialog;E:\github_repo\lm_Work\Engine\Source\Editor\UnrealEd;E:\github_repo\lm_Work\Engine\Source\Editor\Kismet\Classes;E:\github_repo\lm_Work\Engine\Source\Editor\Kismet\Public;E:\github_repo\lm_Work\Engine\Source\Editor\Kismet\Public\Nodes;E:\github_repo\lm_Work\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;E:\github_repo\lm_Work\Engine\Source\Editor\Kismet;E:\github_repo\lm_Work\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;E:\github_repo\lm_Work\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;E:\github_repo\lm_Work\Engine\Source\Runtime\PacketHandlers\PacketHandler;E:\github_repo\lm_Work\Engine\Source\Runtime\Engine;..\..\Source\SpaceTimeWarping;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
